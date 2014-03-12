@@ -3,9 +3,8 @@
 /*
  * Database driver that works on a MySQL Database
  * @author David Brown - david@davidbrownucf.com
- * @version 2012.5.25
+ * @version 2014.3.11
  * @notes Database driver similar to CodeIgniters
- * @todo Insure SQL injection is the best it can be
  * 
  */
 class Database {
