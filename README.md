@@ -11,13 +11,12 @@ Enter database credentials in database.config.php
 
 Open database.php and make sure the config file is being referenced correctly in the constructor.
 
-Include the file via require()
-require('path/to/database.php');
+Include database.php via require('path/to/database.php');
 
 #####Initialize the object
 $db = new Database();
 
-#####Read through the file to pull all functions. Here are some of the more common ones:
+#####Read through the file to see all functions. Here are some of the more common ones:
 
 #####Selecting from a table
 $results = $db->select(['fieldname','anotherfieldname])->from('tablename')->get();
