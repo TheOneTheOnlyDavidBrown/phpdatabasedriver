@@ -17,7 +17,7 @@ class Database {
      */
     function __construct() {
         
-        require 'app/config/database.php';
+        require 'database.config.php';
         
         $this->connection = mysql_connect(
                 $database['host'], $database['user'], $database['pass']
