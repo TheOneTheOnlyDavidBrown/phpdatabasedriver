@@ -3,7 +3,7 @@ phpdatabasedriver
 
 PHP MySQL Database Driver with chaining capabilities.
 
-Works similar to CodeIgniters database driver.
+Works similar to CodeIgniter's database driver.
 
 #####Instructions:
 
