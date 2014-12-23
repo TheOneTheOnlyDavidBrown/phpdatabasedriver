@@ -39,3 +39,6 @@ $results = $db->selectAllFrom('tablename')->get();
 ```php
 $db->update('tablename',['columnname'=>'columnvalue']);
 ```
+###Contributing
+
+Information about contributing can be found [here](https://github.com/TheOneTheOnlyDavidBrown/contributing_guidelines/blob/master/CONTRIBUTING.md) 
