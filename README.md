@@ -24,7 +24,7 @@ $db = new Database();
 
 #####Selecting from a table
 ```php
-$results = $db->select(['fieldname','anotherfieldname])->from('tablename')->get();
+$results = $db->select(['fieldname','anotherfieldname'])->from('tablename')->get();
 ```
 #####Selecting all from a table
 Method one - with select()
